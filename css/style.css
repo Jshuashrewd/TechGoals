@@ -1,0 +1,196 @@
+body{
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Montserrat';
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%; /* Ensures the image scales down on smaller screens */
+}
+
+/* Navigation bar */
+
+.navbar{
+    margin: 10px 80px 0 80px;
+    background-color: #fff;
+}
+
+.navbar-brand, span{
+    padding: 10px;
+    font-family: 'Ubuntu';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+/* Landing Page */
+
+.first{
+    background: #f1f1fc69;
+}
+
+.landing{
+    padding: 100px 120px;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.landing-text {
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 150px 0 15px 0;
+}
+
+.landing-title {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 10px 0 15px 0;
+}
+
+.landing-paragraph{
+    font-size: 1rem;
+}
+
+.title-image{
+    margin: 0;
+    padding: 0;
+}
+
+.dayofweek{
+    font-family: 'Montserrat';
+    font-size: 1rem;
+}
+
+
+/* Goals Page */
+
+.goals{
+    padding: 100px 0 50px 20px;
+}
+
+.goal-title{
+    font-weight: bold;
+    font-size: 3rem;
+    margin:0 0 30px 0 ;
+}
+
+.goal-subtitle{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.goal-text{
+    line-height: 1.8;
+}
+
+.goal-image{
+    position: relative;
+    right: 40px;
+    margin: 20px 0 30px 0;
+}
+
+/* Services */
+
+#services{
+    background-color: #f1f1fc69;
+}
+
+.services-main{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 80px 0 20px 0;
+}
+
+.services-paragraph{
+    margin-bottom: 50px;
+    font-weight: light;
+}
+
+.services-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.services-text{
+    font-size: 1rem;
+}
+
+.top-service{
+    margin: 30px 0 30px 0;
+}
+
+/* Contact Me */
+
+form{
+    font-family: 'Montserrat';
+}
+
+.contactme-main{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 80px 0 20px;
+}
+
+.contactme-paragraph{
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+.user-input{
+    width: 80%;
+}
+
+.form-btn{
+    margin: 20px 0 20px 0;
+    width: 130px;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+
+/* Footer */
+footer{
+    background-color: #f1f1fc69;
+    padding: 100px 0 50px 0;
+}
+
+.icon{
+    font-size: 1.5rem;
+    color: rgb(117, 115, 115);
+    padding: 0 5px 15px 5px;
+}
+
+.external-links{
+    font-size: .9rem;
+}
+
+
+
+@media (max-width: 991px) {
+    html{
+        font-size: 25px;
+    }
+    .landing{
+        padding: 0 100px;
+    }
+}
+
+@media (max-width: 450px) {
+    html{
+        font-size: 33px;
+    }
+}
