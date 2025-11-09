@@ -201,7 +201,7 @@ span {
   object-fit: cover;
 }
 .badge {
-  margin-right: 4px;
+  margin: 4px;
 }
 
 .project-card img {
