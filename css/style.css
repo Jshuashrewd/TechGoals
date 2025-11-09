@@ -246,33 +246,33 @@ span {
 
 /* Contact Me */
 
-  .contact-form {
-    transition: all 0.3s ease-in-out;
-  }
+.contact-form {
+  transition: all 0.3s ease-in-out;
+}
 
-  .contact-form:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-  }
+.contact-form:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
 
-  .form-floating > label {
-    color: #6c757d;
-  }
+.form-floating > label {
+  color: #6c757d;
+}
 
-  .form-control:focus {
-    border-color: #0d6efd;
-    box-shadow: 0 0 0 0.2rem rgba(13,110,253,0.25);
-  }
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
 
-  .contact-icon {
-    color: #0d6efd;
-    transition: all 0.3s ease;
-  }
+.contact-icon {
+  color: #0d6efd;
+  transition: all 0.3s ease;
+}
 
-  .contact-icon:hover {
-    color: #0056b3;
-    transform: translateY(-3px);
-  }
+.contact-icon:hover {
+  color: #0056b3;
+  transform: translateY(-3px);
+}
 
 /* Footer */
 footer {
