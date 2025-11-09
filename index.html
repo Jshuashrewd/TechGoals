@@ -18,7 +18,7 @@
             <!-- navbar -->
              <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="#home">
-                    <img src="image/logo.jpg" alt="Jshuashrewd" class="logo">
+                    <img src="assets/images/logo.jpg" alt="Jshuashrewd" class="logo">
                     <span id="Name">Jshuashrewd</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +30,10 @@
                         <a class="nav-link active" aria-current="page" href="#home">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#goals">Goals</a>
+                        <a class="nav-link" href="#goals">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#services">Services</a>
@@ -48,17 +51,22 @@
     <section class="first">
       <div class="row landing">
         <div class="col-lg-6">
-            <h6 class="landing-text">This is me</h6>
+          <img class="title-image" id="img" src="assets/images/image.webp" alt="profile picture">
+        </div>
+
+        <div class="col-lg-6 landing-content">
+            <h6 class="landing-text">This is me - Web Developer & Tech Educator</h6>
             <h1 class="landing-title">Joshua Adeyanju</h1>
             <p class="landing-paragraph">
-            I'm a Tech enthusiast. A front-end website and software developer, and full-stack aspirant.
+            I build responsive, user-centered web applications and help others learn modern web development skills.
             </p>
+            <div class="call-to-action">
+              <button class="btn-md view-btn">View My Work</button>
+              <a href="mailto:joshadeyanju23@gmail.com" id="email"><button class="btn-md contact-btn">Contact Me</button></a>
+            </div>
             <div id="dayOfWeek" class="dayofweek">Loading...</div>
         </div>
-    
-        <div class="col-lg-6">
-          <img class="title-image" id="img" src="image/image.webp" alt="profile picture">
-        </div>
+
       </div>
     
     </section>
@@ -68,35 +76,282 @@
             <div class="col-md-12 text-center">
                 <h1 class="text-uppercase goal-title">My Tech Journey</h1>
             </div>
-            <div class="col-lg-6">
-                <img src="image/goal.png" alt="target" width="100%" class="goal-image">
-            </div>
         
-            <div class="col-lg-6">
-              <h6 class="goal-subtitle">My Goals</h6>
+            <div class="col-lg-9 goal-container">
+              <h6 class="goal-subtitle">About Me</h6>
               <p class="goal-text">
-                In the next two years, my primary tech goals are to deepen my expertise
-                in front-end development and expand my skills to include full-stack capabilities.
-                I aim to master advanced React techniques, such as hooks, state management with 
-                Redux, and performance optimization to create highly efficient and dynamic user
-                interfaces. Additionally, I plan to improve my understanding of UI/UX design
-                principles to build more intuitive and visually appealing applications.
-                By gaining proficiency in these areas, I hope to contribute more effectively
-                to my current projects and take on more complex challenges within my role. <br>
-
-                I also plan to develop my backend development skills by learning technologies such as Node.js,
-                Express, and databases like MongoDB or PostgreSQL. This will enable me to build full-stack
-                applications and understand the complete workflow of web development. Furthermore,
-                I intend to participate in open-source projects to collaborate with other developers
-                and gain exposure to diverse codebases and development practices. By achieving these goals,
-                I aim to become a versatile developer capable of handling various aspects of web development,
-                thereby enhancing my career prospects and making significant contributions to my team and organization.
+                I’m Joshua Adeyanju, a passionate Web Developer focused on creating responsive,
+                user-friendly, and visually appealing web applications. <br>
+                I specialize in front-end development using HTML, CSS, JavaScript, and React, 
+                and I’m steadily growing my back-end skills with Node.js and Express to become a 
+                well-rounded full-stack developer. <br>
+                I enjoy turning ideas into real solutions that solve everyday problems while ensuring 
+                a smooth user experience. Beyond coding, I love sharing knowledge—helping others understand 
+                web development concepts and guiding them on their learning journey. <br>
+                When I’m not coding, I’m exploring new tools, refining my design sense, or contributing to projects
+                that challenge me to grow and create value through technology.
               </p>
               <div id="utcTime">Loading...</div>
-              <a href="mailto:joshadeyanju23@gmail.com" id="email">joshadeyanju23@gmail.com</a>
             </div>
           </div>
     </section>
+
+<section id="skills" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">My Skills</h2>
+      <p class="text-muted">
+        A blend of front-end creativity, back-end logic, and a love for sharing knowledge.
+      </p>
+    </div>
+
+    <div class="row gy-4">
+
+      <!-- Frontend Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm skill-card p-4 h-100">
+          <div class="card-body">
+            <h5 class="fw-bold mb-3"><i class="fas fa-code text-primary me-2"></i>Frontend Development</h5>
+
+            <div class="mb-3">
+              <div class="d-flex justify-content-between">
+                <span>HTML5</span><span>95%</span>
+              </div>
+              <div class="progress" style="height: 6px;">
+                <div class="progress-bar bg-primary" style="width: 95%;"></div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <div class="d-flex justify-content-between">
+                <span>CSS3</span><span>90%</span>
+              </div>
+              <div class="progress" style="height: 6px;">
+                <div class="progress-bar bg-primary" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <div class="d-flex justify-content-between">
+                <span>JavaScript (ES6+)</span><span>85%</span>
+              </div>
+              <div class="progress" style="height: 6px;">
+                <div class="progress-bar bg-primary" style="width: 85%;"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="d-flex justify-content-between">
+                <span>React</span><span>80%</span>
+              </div>
+              <div class="progress" style="height: 6px;">
+                <div class="progress-bar bg-primary" style="width: 80%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Backend Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm skill-card p-4 h-100">
+          <div class="card-body">
+            <h5 class="fw-bold mb-3"><i class="fas fa-server text-success me-2"></i>Backend Development</h5>
+
+            <div class="mb-3">
+              <div class="d-flex justify-content-between">
+                <span>Node.js</span><span>75%</span>
+              </div>
+              <div class="progress" style="height: 6px;">
+                <div class="progress-bar bg-success" style="width: 75%;"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="d-flex justify-content-between">
+                <span>Express</span><span>70%</span>
+              </div>
+              <div class="progress" style="height: 6px;">
+                <div class="progress-bar bg-success" style="width: 70%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CMS & Tools Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm skill-card p-4 h-100">
+          <div class="card-body">
+            <h5 class="fw-bold mb-3"><i class="fas fa-toolbox text-warning me-2"></i>CMS & Tools</h5>
+
+            <div class="mb-3">
+              <div class="d-flex justify-content-between">
+                <span>WordPress</span><span>85%</span>
+              </div>
+              <div class="progress" style="height: 6px;">
+                <div class="progress-bar bg-warning" style="width: 85%;"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="d-flex justify-content-between">
+                <span>Git & GitHub</span><span>90%</span>
+              </div>
+              <div class="progress" style="height: 6px;">
+                <div class="progress-bar bg-warning" style="width: 90%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Programming Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm skill-card p-4 h-100">
+          <div class="card-body">
+            <h5 class="fw-bold mb-3"><i class="fab fa-python text-info me-2"></i>Programming</h5>
+
+            <div>
+              <div class="d-flex justify-content-between">
+                <span>Python (Basic)</span><span>60%</span>
+              </div>
+              <div class="progress" style="height: 6px;">
+                <div class="progress-bar bg-info" style="width: 60%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Soft Skills Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm skill-card p-4 h-100">
+          <div class="card-body">
+            <h5 class="fw-bold mb-3"><i class="fas fa-users text-secondary me-2"></i>Soft Skills</h5>
+
+            <div class="mb-3">
+              <div class="d-flex justify-content-between">
+                <span>Teaching & Mentorship</span><span>90%</span>
+              </div>
+              <div class="progress" style="height: 6px;">
+                <div class="progress-bar bg-secondary" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <div class="d-flex justify-content-between">
+                <span>Team Collaboration</span><span>85%</span>
+              </div>
+              <div class="progress" style="height: 6px;">
+                <div class="progress-bar bg-secondary" style="width: 85%;"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="d-flex justify-content-between">
+                <span>Problem Solving</span><span>80%</span>
+              </div>
+              <div class="progress" style="height: 6px;">
+                <div class="progress-bar bg-secondary" style="width: 80%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">My Projects</h2>
+      <p class="text-muted">
+        A selection of the web projects and applications I’ve built — each focused on solving real problems and improving user experience.
+      </p>
+    </div>
+
+    <div class="row gy-4">
+
+      <!-- Project 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm project-card h-100">
+          <img src="assets/images/lms-project.png" class="card-img-top" alt="Tutor LMS Project">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Tutor LMS Customization</h5>
+            <p class="card-text text-muted">
+              Customized a Learning Management System using WordPress and Tutor LMS. Implemented course dashboards and a user-friendly layout to enhance student engagement.
+            </p>
+            <div class="mb-3">
+              <span class="badge bg-primary">WordPress</span>
+              <span class="badge bg-info">Tutor LMS</span>
+              <span class="badge bg-dark">Elementor</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm project-card h-100">
+          <img src="assets/images/portfolio-project.png" class="card-img-top" alt="Portfolio Website">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Personal Portfolio Website</h5>
+            <p class="card-text text-muted">
+              Designed and developed a responsive portfolio using React and Bootstrap to showcase skills, projects, and teaching interests in web development.
+            </p>
+            <div class="mb-3">
+              <span class="badge bg-primary">HTML</span>
+              <span class="badge bg-secondary">Bootstrap</span>
+              <span class="badge bg-dark">Node.js</span>
+            </div>
+            <a href="https://jshuashrewd.github.io/TechGoals/" class="btn btn-outline-primary btn-sm me-2" target="_blank"><i class="fas fa-external-link-alt me-1"></i> Live Demo</a>
+            <a href="https://github.com/Jshuashrewd/TechGoals" class="btn btn-outline-dark btn-sm" target="_blank"><i class="fab fa-github me-1"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm project-card h-100">
+          <img src="assets/images/business-landing.png" class="card-img-top" alt="Landing Page Project">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Business Landing Pages</h5>
+            <p class="card-text text-muted">
+              Built and optimized landing pages for local businesses using HTML, CSS, and JavaScript — focusing on clean design, performance, and accessibility.
+            </p>
+            <div class="mb-3">
+              <span class="badge bg-primary">HTML</span>
+              <span class="badge bg-warning text-dark">CSS</span>
+              <span class="badge bg-success">JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm project-card h-100">
+          <img src="assets/images/python-automation.png" class="card-img-top" alt="Python Script Project">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Python Automation Script</h5>
+            <p class="card-text text-muted">
+              Developed a simple Python script to automate file organization and data processing, improving efficiency in small administrative tasks.
+            </p>
+            <div class="mb-3">
+              <span class="badge bg-info text-dark">Python</span>
+              <span class="badge bg-dark">Automation</span>
+            </div>
+            <a href="https://github.com/Jshuashrewd" class="btn btn-outline-dark btn-sm" target="_blank"><i class="fab fa-github me-1"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
     <section id="services">
 
@@ -109,38 +364,31 @@
                     </div>
                 </div>
             <div class="row justify-content-center">
-              <div class="col-lg-4 col-md-6 text-center top-service">
-                <img src="image/testing.png" alt="">
+              <div class="col-lg-4 col-sm-12 text-center top-service">
+                <img src="assets/images/testing.png" alt="">
                 <h3 class="services-title">Software Development</h3>
                 <p class="services-text">Ready to unleash the full potential of your ideas with powerful software? 
                     I combine creativity with cutting-edge technology to deliver robust, 
                     elegant, and scalable software solutions.</p>
               </div>
-              
-              <div class="col-lg-4 col-md-6 col-sm-12 text-center top-service">
-                <img src="image/backend-coding.png" alt="">
-                <h3 class="services-title">Backend Development</h3>
-                <p class="services-text">Elevate your website with my expert backend development 
-                  services for enhanced performance, security, and functionality. Stay ahead with my offered custom solutions.</p>
-              </div>
         
-              <div class="col-lg-4 col-md-6 col-sm-12 text-center top-service">
-                <img src="image/coding.png" alt="">
+              <div class="col-lg-4 col-sm-12 text-center top-service">
+                <img src="assets/images/coding.png" alt="">
                 <h3 class="services-title">Web Development</h3>
                 <p class="services-text">I am not just a developer; I metamorphose lines of code 
                   into unforgettable user experiences that redefine excellence.</p>
               </div>
 
-              <div class="col-lg-6 col-md-6 col-sm-12 text-center top-service">
-                <img src="image/game-development.png" alt="">
+              <div class="col-lg-4 col-sm-12 text-center top-service">
+                <img src="assets/images/game-development.png" alt="">
                 <h3 class="services-title">Game Development</h3>
                 <p class="services-text">Transform your game idea into a reality with my expert game development services.
                    I will bring your vision to life,
                   from captivating graphics to engaging gameplay. Let's make your game stand out.</p>
               </div>
 
-              <div class="col-lg-6 col-sm-12 text-center top-service">
-                <img src="image/mobile-development.png" alt="">
+              <div class="col-lg-4 col-sm-12 text-center top-service">
+                <img src="assets/images/mobile-development.png" alt="">
                 <h3 class="services-title">Mobile App Development</h3>
                 <p class="services-text">Bring your app idea to life with my expertise on mobile app development. 
                   I'll create a user-friendly and engaging app that meets your unique needs.
@@ -151,44 +399,71 @@
         </div>
     </section>
 
-    <section id="contact-me">
-        <form action="" class="container">
-            <div class="text-left">
-                <h1 class="mb-10 contactme-main">Contact Me</h1>
-                <p class="contactme-paragraph">Feel free to get in touch with me using the contact form below. 
-                  I look forward to hearing from you!</p>
-            </div>
-            <div class="mb-3 user-input">
-                <label class="form-label">Email address</label>
-                <input type="email" class="form-control" placeholder="name@example.com">
-              </div>
+<!-- ===== CONTACT SECTION ===== -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Let’s Connect</h2>
+      <p class="text-muted">Have a project idea, collaboration offer, or just want to say hi? Drop a message below!</p>
+    </div>
 
-              <div class="mb-3 user-input">
-                <label class="form-label">Name</label>
-                <input type="text" class="form-control" placeholder="John Smith">
-              </div>
-              
-              <div class="mb-3 user-input">
-                <label class="form-label">Message</label>
-                <textarea class="form-control" rows="3"></textarea>
-              </div>
-              <a type="button" href="" class="btn btn-md form-btn">Submit</a>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form id="contactForm" action="https://formspree.io/f/mqawznod" method="POST" class="contact-form p-4 bg-white rounded-4 shadow-lg">
+          
+          <div class="form-floating mb-4">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+            <label for="name">Full Name</label>
+          </div>
+
+          <div class="form-floating mb-4">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
+            <label for="email">Email Address</label>
+          </div>
+
+          <div class="form-floating mb-4">
+            <textarea class="form-control" id="message" name="message" placeholder="Write your message here" style="height: 150px" required></textarea>
+            <label for="message">Your Message</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary w-100 py-2 fw-semibold">
+            <i class="fa-solid fa-paper-plane me-2"></i>Send Message
+          </button>
+
+          <!-- Success Message -->
+          <div id="formAlert" class="alert alert-success mt-3 d-none text-center" role="alert">
+            ✅ Your message has been sent successfully!
+          </div>
+
         </form>
-    </section>
+
+        <!-- Social Icons -->
+        <div class="text-center mt-5">
+          <p class="text-muted mb-2">Or connect with me on:</p>
+          <div class="d-flex justify-content-center gap-4 fs-3">
+            <a href="mailto:joshadeyanju23@gmail.com" class="contact-icon"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/jshuashrewd" target="_blank" class="contact-icon"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/jshua-shrewd/" target="_blank" class="contact-icon"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.link/8jvmm7" target="_blank" class="contact-icon"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://web.facebook.com/joshade09" target="_blank" class="contact-icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://x.com/Eniola_ade23" target="_blank" class="contact-icon"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <footer class="text-center" id="footer">
     
       <div class="container">
-        <a href="https://web.facebook.com/joshade09"><i class="social-icon fab fa-facebook-f icon"></i></a>
-        <a href="https://x.com/Eniola_ade23"><i class="social-icon fab fa-twitter icon"></i></a>
-        <a href="https://www.instagram.com/__eni_ade/"><i class="social-icon fab fa-instagram icon"></i></a>
-        <a href="https://joshadeyanju23@gmail.com"><i class="social-icon fas fa-envelope icon"></i></a>
         <p class="external-links">Useful Links: 
           <a href="http://hng.tech/learn" target="_blank" id="hng">HNG</a>
           <a href="http://keyword.dog/" target="_blank" id="keyword">Keyword</a>
           <a href="http://scrapeanyweb.site/" target="_blank" id="scrapanyweb">scrapanyweb</a>
         </p>
-        <p>© Copyright 2024 Jshuashrewd</p>
+        <p>© Copyright 2025 Jshuashrewd</p>
       </div>
     </footer>
 
